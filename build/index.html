@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Beverly</title>
+        <meta charset="utf-8">
+        <title>The Beverly | Bed & Breakfast in Louisville</title>
+        <meta name="viewport" content="width=device-width, initial=scale=1.0">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto+Condensed&display=swap" rel="stylesheet">
+        <!-- <script>
+            var ajax = new XMLHttpRequest();
+            ajax.onreadystatechange = function() {
+                if (ajax.readyState === 4) {
+                    document.getElementById('#').innerHTML = ajax.responseText;
+                }
+            };
+            ajax.open('GET', 'sidebar.html');
+            ajax.send();
+        </script> -->
     </head>
 
     <body>
         <div>
-            <nav>
-                <ul>
-                    <li><a href="#">Map</a></li>
+
+            <nav class="main-nav">
+                <ul class="nav">
+                    <li><a href="map.html">Map</a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="overview.html">Overview</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Rates</a></li>
                     <li><a href="#">Availibility</a></li>
                     <li><a href="#">Reviews</a>
-                        <ul><a href="#">Contact</a></ul>
+                        <ul><a href="contact.html">Contact</a></ul>
                     </li>
                     <li><a href="#">Book</a></li>
                 </ul>
             </nav>
-            <img src="assets/img/red-chairs.jpg" alt="red chairs">
+            
             <header>
+                <img src="assets/img/red-chairs.jpg" alt="red chairs" class="banner-img">
                 <h1>Short Stay Housing in Louisville</h1>
             </header>
             
-            <section>
+            <section id="primary-content">
                 <div>
                     <h2>Great Location</h2>
                     <img src="assets/img/map.png" alt="Map">
@@ -43,16 +59,16 @@
                 </div>
             </section>
 
-            <footer>
-                <div>
-                    <img src="assets/img/facebook-logo.png" alt="Facebook">
-                    <img src="assets/img/instagram-logo.png" alt="Instagram">
-                    <img src="assets/img/twitter.png" alt="Twitter">
+            <footer id="main-footer">
+                <div id="social-icons">
+                    <img src="assets/img/facebook-logo.png" alt="Facebook" id="facebook">
+                    <img src="assets/img/instagram-logo.png" alt="Instagram" id="instagram">
+                    <img src="assets/img/twitter.png" alt="Twitter" id="twitter">
                 </div>
-                <p>Email: thebeverlybnb@gmail.com</p>
-                <p>&copy;2019 The Beverly.t All rights reserved.</p>
+                <p>Email: <a href="mailto:thebeverlybnb@gmail.com?subject=Guest%20Relations">thebeverlybnb@gmail.com</a></p>
+                <p>&copy;2019 The Beverly. All rights reserved.</p>
+                <p>Website by <a href="http://www.tiffanyburton.com/">Tiffany Burton McBroom</a></p>
             </footer>
         </div>
     </body>
-
 </html>

@@ -1,0 +1,107 @@
+
+/* Basics */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    
+}
+
+h1 {
+    font-size: 52px;
+}
+h2 {
+
+}
+
+h4 {
+
+}
+
+p{
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+}
+
+#primary-content {
+
+}
+
+#main-footer {
+    background-color: lightgrey;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 10px grey; 
+}
+#facebook {
+    size: 5px;
+}
+
+/* Section Styles */
+.main-nav {
+    width: 100%;
+    background:white;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;  
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.banner-img {
+
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+    .flex {
+        display: flex;
+        max-width: 1200px;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    header {
+
+    }
+
+    .nav {
+
+    }
+
+    main {
+        padding-top: 50px; 
+    }
+
+    main p {
+        line-height: 1.6em;
+    }
+
+    footer {
+        font-size: 1.3em;
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+}
